@@ -1,0 +1,7 @@
+local Faker=require("faker")
+local faker=Faker:new({locale="en_US" })
+local name=faker:name()..math.random(1,1000)
+print(string.format("Name=%s", name))
+print(string.format("Name=%s", string.match(name,"%a+%s%a+%d+")))
+local id=math.random(1000,9999)
+print(string.format("ID=%d", string.match(id,"%d%d%d")))
