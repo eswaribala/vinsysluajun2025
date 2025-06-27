@@ -23,10 +23,10 @@ else
     --print(conent)  -- For demonstration, printing the content
     for line in content:gmatch("[^\n]+") do
         -- print(line)  -- Print each line of the CSV content
-        for word in line:gmatch("[^,]+") do
+        for word in line:gmatch("[^\t]+") do
             --print(word)  -- Print each word in the line
 
-                print(word)  -- Print each non-empty word in the line
+                print(word..",")  -- Print each non-empty word in the line
 
         end
     end
