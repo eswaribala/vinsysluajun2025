@@ -17,6 +17,10 @@ end
 local c1 = scores(10,9,8)
 local c2 = scores(5,6,7)
 local c3 = c1 + c2
-print("Quality: " .. c3.quality)
-print("Service: " .. c3.service)
-print("Usage: " .. c3.usage)
+--print("Quality: " .. c3.quality)
+--print("Service: " .. c3.service)
+--print("Usage: " .. c3.usage)
+
+for k,v in pairs(c3) do
+    print(k .. ": " .. v)
+end
