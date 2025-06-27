@@ -29,3 +29,49 @@ if #pw >= 8
 else
     print("Password is invalid")
 end
+
+-- print all the words i a string
+local text= "Hi lua programmer, welcome to regex demo! dated 26/06/2025"
+for word in text:gmatch("%w+") do
+    if word:match("%a+") then
+        print("Word found: " .. word)
+    end
+
+end
+
+-- check for 10 digits mobile number
+local mobile_number = "1234567890"
+local mobile_pattern = "^%d+$" -- Matches exactly 10 digits
+if string.match(mobile_number, mobile_pattern) and #mobile_number == 10 then
+    print("Mobile number is valid")
+else
+    print("Mobile number is invalid")
+end
+
+-- check dob validation
+local dob = "26/06/2025"
+local dob_pattern = "^(%d%d)/(%d%d)/(%d%d%d%d)$" -- Matches dd/mm/yyyy format
+local day, month, year = string.match(dob, dob_pattern)
+if day and month and year then
+    day = tonumber(day)
+    month = tonumber(month)
+    year = tonumber(year)
+
+    -- Basic validation for day and month
+    if month >= 1 and month <= 12 and day >= 1 and day <= 31 then
+        print("DOB is valid: " .. dob)
+    else
+        print("DOB is invalid: " .. dob)
+    end
+else
+    print("DOB format is invalid")
+end
+
+local feedback="Hello, this is a test message. Please contact us at 99952032862 chennai airport for more information. Our email is"
+local count=0
+print(#feedback)
+for word in feedback:gmatch("%S+") do
+   count = count + 1
+   print(string.format("Word %d: %s", count, word))
+end
+print(string.format("Total words in feedback: %d", count))
