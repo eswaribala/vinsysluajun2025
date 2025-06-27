@@ -1,4 +1,4 @@
-
+package.path = package.path .. "./faker/?.lua;./faker/?/init.lua;./faker/?.lua;./faker/?/init.lua"
 local Faker=require("faker")
 local faker=Faker:new({locale="en_US" })
 

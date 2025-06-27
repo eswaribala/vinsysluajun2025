@@ -1,9 +1,9 @@
-
+package.path = package.path .. "./faker/?.lua;./faker/?/init.lua;./faker/?.lua;./faker/?/init.lua"
 --[[
 author: Parameswari
 date: 2023-10-01
 ]]
-local Faker=require("Faker")
+local Faker=require("faker")
 local faker=Faker:new({locale="en_US"})
 print(type(faker:name()))
 -- Generate a random number
