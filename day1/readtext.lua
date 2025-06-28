@@ -32,7 +32,28 @@ else
   -- You can process the content here, e.g., print it or parse it.
   -- print(content) -- Uncomment to see the content
   print(content)
+  local date_pattern="%d+-%d+-%d+"
+  local time_pattern="%d+:%d+:%d+,%d+"
+  local log_level_pattern="%u+"
     for i, line in ipairs(content) do
-        print(i, line)
+      local date_match=  string.match(line, date_pattern)
+      local time_match=  string.match(line, time_pattern)
+      local log_level_match = string.match(line, log_level_pattern)
+      if date_match then
+        print("Date: " .. date_match)
+      else
+        print("No match found in line " .. i)
+      end
+      if time_match then
+        print("Time: " .. time_match)
+      else
+        print("No match found in line " .. i)
+      end 
+      if log_level_match then
+        print("Log Level: " .. log_level_match)
+      else
+        print("No match found in line " .. i)
+
+      end
     end
 end
