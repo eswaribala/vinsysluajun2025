@@ -1,0 +1,2 @@
+https://luabinaries.sourceforge.net/download.html
+https://sourceforge.net/projects/luabinaries/files/5.4.2/Windows%20Libraries/Dynamic/
