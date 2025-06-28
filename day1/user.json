@@ -1,9 +1,9 @@
-<<<<<<< HEAD
 [
   {
-=======
+
 {
->>>>>>> d2387d0d76f5ad1773a9fac8730b56ea82f8899a
+
+{
     "id": 1,
     "name": "Leanne Graham",
     "username": "Bret",
@@ -25,6 +25,7 @@
       "catchPhrase": "Multi-layered client-server neural-net",
       "bs": "harness real-time e-markets"
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
   },
   {
@@ -235,6 +236,7 @@
     }
   }
 ]
-=======
   }
->>>>>>> d2387d0d76f5ad1773a9fac8730b56ea82f8899a
+
+  }
+
