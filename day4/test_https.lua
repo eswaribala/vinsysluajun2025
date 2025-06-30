@@ -18,24 +18,25 @@ local requestBody={
 }
 local responseBody={}
 local requestBodyStr=dkjson.encode(requestBody)
-local res,code,headers,status=https.request{
-   url = "https://postman-echo.com/post",
-   method = "post",
-   headers = {
-     ["Content-Type"] = "application/json",
-     ["Content-Length"] = tostring(#requestBodyStr)
-  },
-  source=ltn12.source.string(requestBodyStr),
-  sink=ltn12.sink.table(responseBody),
- }
-print("Status:", status)
+local headers = {
+  ["Content-Type"] = "application/json",
+  ["Content-Length"] = #requestBodyStr
+}
+local _, code, responseHeaders, status = https.request{
+  url = "https://postman-echo.com/post",
+  method = "POST",
+  headers = headers,
+  source = ltn12.source.string(requestBodyStr),
+  sink = ltn12.sink.table(responseBody)   
+
+}
+print("Status:", status)  
 print("Response Body:", table.concat(responseBody))
-if code == 200 then
-  local responseData = dkjson.decode(table.concat(responseBody))
-  if responseData and responseData.data then
-    print("Username:", responseData.data.username)
-    print("Password:", responseData.data.password)
-  else
-    print("No data found in response")
-  end
+print("Response Code:", code)
+print("Response Headers:", responseHeaders) 
+if code == 201 then
+  print("Post created successfully")
+else
+  print("Failed to create post, status code:", code)
 end
+
