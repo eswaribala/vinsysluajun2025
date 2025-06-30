@@ -4,3 +4,8 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 wsl --install -d Ubuntu
 wsl --set-default-version 2
 wsl -l -v
+
+#open ubuntu terminal
+sudo apt-get update
+sudo apt-get install lua5.1
+sudo apt-get install luarocks
