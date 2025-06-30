@@ -14,7 +14,7 @@ sudo luarocks install lua-mongo LIBBSON_INCDIR=/usr/local/include/libbson-1.0 LI
   LIBBSON_LIBDIR=/usr/local/lib LIBMONGOC_LIBDIR=/usr/local/lib
 #install mongodb
 #if ubuntu 24
-https://www.cherryservers.com/blog/how-to-install-and-start-using-mongodb-on-ubuntu-20-04
+https://www.cherryservers.com/blog/install-mongodb-ubuntu-2404
 for mongo installation
 
 # Import MongoDB GPG key
