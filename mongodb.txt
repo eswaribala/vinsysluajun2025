@@ -1,0 +1,17 @@
+sudo apt update
+sudo apt install libbson-dev libmongoc-dev
+ls /usr/include/libbson-1.0/bson/bson.h
+sudo apt install cmake build-essential pkg-config libssl-dev
+git clone https://github.com/mongodb/mongo-c-driver.git
+cd mongo-c-driver
+git checkout 1.24.4  # Use a stable version
+mkdir cmake-build
+cd cmake-build
+cmake -DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF ..
+make -j$(nproc)
+sudo make install
+sudo luarocks install lua-mongo \
+  LIBBSON_INCDIR=/usr/local/include/libbson-1.0 \
+  LIBMONGOC_INCDIR=/usr/local/include/libmongoc-1.0 \
+  LIBBSON_LIBDIR=/usr/local/lib \
+  LIBMONGOC_LIBDIR=/usr/local/lib
