@@ -22,3 +22,18 @@ sudo apt install libssl-dev
 ls /usr/include/openssl/ssl.h
 sudo luarocks install luasec OPENSSL_INCDIR=/usr/include OPENSSL_LIBDIR=/usr/lib/x86_64-linux-gnu
 sudo luarocks install dkjson
+#mysql configuration
+sudo apt install mysql-server
+sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf(change port)
+sudo service mysql start
+sudo mysql_secure_installation
+#login as admin
+sudo mysql
+#after that set password
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
+mysql -u root  -p
+create database ecommercedb;
+use ecommercedb;
+create table Product(ProductId int primary key, Name varchar(50), Cost int);
+sudo apt-get install lua-sql-mysql
+
