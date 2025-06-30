@@ -16,8 +16,8 @@ if conn then
 
     -- insert a new customer
 
-    local insert_query = string.format("insert into tag(tag_id,name,description,min_value,max_value,preset_value,set_point)values('%d','%s','%s'>
-
+    local insert_query = string.format("insert into tag(tag_id,name,description,min_value,max_value,preset_value,set_point)values
+    ('%d','%s','%s','%d','%d','%d','%d')",id,'','',min_value,max_value,preset_value,set_point)
     local res, err = conn:execute(insert_query)
 
     if err then
