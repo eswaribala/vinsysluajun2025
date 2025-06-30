@@ -11,3 +11,13 @@ sudo apt-get install lua5.1
 sudo apt-get install luarocks
 #install luasocket
 sudo luarocks install luasocket
+#to install luasec
+sudo apt update
+sudo apt install openssl libssl-dev
+sudo apt install libssl-dev
+openssl version
+dpkg -L libssl-dev | grep include
+sudo apt update
+sudo apt install libssl-dev
+ls /usr/include/openssl/ssl.h
+sudo luarocks install luasec OPENSSL_INCDIR=/usr/include OPENSSL_LIBDIR=/usr/lib/x86_64-linux-gnu
