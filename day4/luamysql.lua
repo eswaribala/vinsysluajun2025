@@ -12,10 +12,13 @@ end
 if conn then
     print("✅ Connected to MySQL")
 
-    -- insert a new customer
-    local insert_query = [[ 
-        INSERT INTO customer (customer_id, email) 
-        VALUES (1, 'param@gmail.com')]]
+   --insert_query = string.format("INSERT INTO customer (customer_id, email) VALUES (%d, '%s')", math.random(1, 100), '')
+    local insert_query = [[
+        "INSERT INTO tag (tag_id, name,description,min_value,max_value,preset_value,set_point)
+        VALUES (109, 'tag_name', 'tag_description', 0, 100, 50, 75)"]]
+    -- Insert a new customer    
+    
+    
     local res, err = conn:execute(insert_query)
     if err then 
         print("❌ Error inserting data: " .. err)
@@ -49,6 +52,13 @@ if conn then
         row = cur:fetch(row, "a")
     end
 
+    local cur = conn:execute("SELECT * FROM tag")
+
+     -- Fetch rows
+     local row = cur:fetch({}, "a")
+     while row do
+         print(string.format("tag_id: %d, name: %s, description: %s, min_value: %d, max_value: %d,preset_value: %d, set_point %d", row.tag_id,>40         row = cur:fetch(row, "a")
+     end
     -- Close connection and cleanup
     cur:close()
         conn:close()
