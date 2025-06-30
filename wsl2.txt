@@ -28,6 +28,8 @@ sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf(change port)
 sudo service mysql start
 sudo service mysql status
 sudo service --status-all
+sudo apt install net-tools
+netstat -tlnp
 sudo mysql_secure_installation
 #login as admin
 sudo mysql
