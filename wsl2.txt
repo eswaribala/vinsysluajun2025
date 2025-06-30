@@ -21,3 +21,4 @@ sudo apt update
 sudo apt install libssl-dev
 ls /usr/include/openssl/ssl.h
 sudo luarocks install luasec OPENSSL_INCDIR=/usr/include OPENSSL_LIBDIR=/usr/lib/x86_64-linux-gnu
+sudo luarocks install dkjson
