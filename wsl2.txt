@@ -26,6 +26,8 @@ sudo luarocks install dkjson
 sudo apt install mysql-server
 sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf(change port)
 sudo service mysql start
+sudo service mysql status
+sudo service --status-all
 sudo mysql_secure_installation
 #login as admin
 sudo mysql
