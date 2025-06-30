@@ -10,11 +10,8 @@ cd cmake-build
 cmake -DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF ..
 make -j$(nproc)
 sudo make install
-sudo luarocks install lua-mongo \
-  LIBBSON_INCDIR=/usr/local/include/libbson-1.0 \
-  LIBMONGOC_INCDIR=/usr/local/include/libmongoc-1.0 \
-  LIBBSON_LIBDIR=/usr/local/lib \
-  LIBMONGOC_LIBDIR=/usr/local/lib
+sudo luarocks install lua-mongo LIBBSON_INCDIR=/usr/local/include/libbson-1.0 LIBMONGOC_INCDIR=/usr/local/include/libmongoc-1.0 
+  LIBBSON_LIBDIR=/usr/local/lib LIBMONGOC_LIBDIR=/usr/local/lib
 #install mongodb
 # Import MongoDB GPG key
 curl -fsSL https://pgp.mongodb.com/server-7.0.asc | \
