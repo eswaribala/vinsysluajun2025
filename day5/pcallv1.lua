@@ -16,4 +16,5 @@ end
 
 local unit_consumption=math.random(1, 1000)
 local production_value=math.random(0,1)
-print(productivity(unit_consumption, production_value))
+print(productivity(unit_consumption, "abc"))
+print("continue")
