@@ -1,4 +1,4 @@
-local TaskQueue = require("taskqueue")  -- Assuming taskqueue.lua is in the same directory
+local TaskQueue = {}
 TaskQueue.__index = TaskQueue  -- This binds the methods
 function TaskQueue:new()
      local obj = {
@@ -40,7 +40,7 @@ local function create_sample_tasks()
     }
 end
 -- Declare it globally at the top
-_G.global_task_queue = nil
+global_task_queue = nil
 local function main()
     if not _G.global_task_queue then
         -- Global variable retained across script intervals
