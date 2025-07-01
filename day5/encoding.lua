@@ -5,8 +5,8 @@ local function handle_request(request)
         return "Invalid"
     end
     local str = request:gsub("\n", "\r\n")
-    return str:gsub("([^%w%-_.~])", function(c)
-        return string.format("%%%02X", string.byte(c))
+    return str:gsub("([^%w%-_.~])", function(name)
+        return string.format("%%%02X", string.byte(name))
     end)
 end
 
