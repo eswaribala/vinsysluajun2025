@@ -18,7 +18,7 @@ local function check_room_temp(threshold_value)
         print("Warning: Room temperature is less than the threshold!")
     else
         print("Room temperature is within the safe range.")
-        os.execute("timeout /T 1 >nul") -- Simulating a delay
+        os.execute("timeout /T 10 >nul") -- Simulating a delay
         check_room_temp(threshold_value) -- Tail call to check again
     end
 
