@@ -8,4 +8,5 @@ end)
 end
 
 local name="Emerson\tEnginnering"
+print("test"..nil)
 print(tabexpansion(name))

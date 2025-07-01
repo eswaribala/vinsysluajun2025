@@ -1,15 +1,19 @@
 local function productivity(unit_consumption, production_value)
       local NaN=0/0
       local inf=1/0
+    --  print("test"..nil)
       local  result= unit_consumption / production_value
       if result > 0 and result ~= inf then
         return result
       end
       if result <= 0 or result == nil or result == inf or result == NaN then
-        error("Error in productivity calculation: Division by zero or negative value", 2)
+        --raising an error
+        error("Error in productivity calculation: Division by zero or negative value", 1)
       end
 
 end
+
+-- capture errors using xpcall
 
 local function error_handler(err)
     return err;
