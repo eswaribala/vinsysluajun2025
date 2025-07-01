@@ -30,6 +30,9 @@ end
 function TaskQueue:is_empty()
     return self.first > self.last
 end
+
+ -- Assuming taskqueue.lua is in the same directory
+-- Access the TaskQueue class from the module
 local function create_sample_tasks()
     local now = os.time()
     --for testing make time ahead of now
