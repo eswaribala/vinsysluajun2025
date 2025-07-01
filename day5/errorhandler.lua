@@ -15,10 +15,10 @@ local function handler(err)
 
 end
 
-local status, result
+--local status, result
 for i = 1, 10 do
-    status, result = xpcall(function()
-     withdraw(math.random(100000), math.random(500,5000))
+    local status, result = xpcall(function()
+     return withdraw(math.random(100000), math.random(500,5000))
 end, handler)
 
     print(result)
