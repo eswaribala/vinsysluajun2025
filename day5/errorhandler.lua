@@ -8,9 +8,9 @@ end
 
 local function handler(err)
     if type(err) == "string" then
-        print("Error: " .. err)
+        return ("Error: " .. err)
     else
-        print("An error occurred: " .. tostring(err))
+        return ("An error occurred: " .. tostring(err))
     end
 
 end
@@ -18,14 +18,16 @@ end
 --local status, result
 for i = 1, 10 do
     local status, result = xpcall(function()
-     return withdraw(math.random(100000), math.random(500,5000))
+     return withdraw(math.random(100000), math.random(200000))
 end, handler)
 
-    print(result)
+    --print(result)
     if not status then
-        print("Transaction failed: ")
+        print("Transaction failed: "..result)
     else
-        print("Transaction successful" )
+        if result > 0 then
+         print("Transaction successful=" ..result)
+        end
     end
 end
 
