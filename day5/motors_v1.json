@@ -1,0 +1,901 @@
+[{
+    "name":"Motor 1",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":15387,
+    "id":909
+  },{
+    "name":"Motor 2",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":12172,
+    "id":463
+  },{
+    "name":"Motor 3",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":39438,
+    "id":690
+  },{
+    "name":"Motor 4",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":16014,
+    "id":579
+  },{
+    "name":"Motor 5",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":16828,
+    "id":302
+  },{
+    "name":"Motor 6",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":39621,
+    "id":158
+  },{
+    "name":"Motor 7",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":46786,
+    "id":765
+  },{
+    "name":"Motor 8",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":44668,
+    "id":205
+  },{
+    "name":"Motor 9",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":22787,
+    "id":817
+  },{
+    "name":"Motor 10",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":17036,
+    "id":642
+  },{
+    "name":"Motor 11",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":38885,
+    "id":782
+  },{
+    "name":"Motor 12",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":22346,
+    "id":298
+  },{
+    "name":"Motor 13",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":34734,
+    "id":907
+  },{
+    "name":"Motor 14",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":39123,
+    "id":811
+  },{
+    "name":"Motor 15",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":31834,
+    "id":167
+  },{
+    "name":"Motor 16",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":37059,
+    "id":782
+  },{
+    "name":"Motor 17",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":43875,
+    "id":441
+  },{
+    "name":"Motor 18",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":27943,
+    "id":395
+  },{
+    "name":"Motor 19",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":39616,
+    "id":992
+  },{
+    "name":"Motor 20",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":40404,
+    "id":597
+  },{
+    "name":"Motor 21",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":43427,
+    "id":17
+  },{
+    "name":"Motor 22",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":17286,
+    "id":971
+  },{
+    "name":"Motor 23",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":22532,
+    "id":519
+  },{
+    "name":"Motor 24",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":28595,
+    "id":435
+  },{
+    "name":"Motor 25",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":27176,
+    "id":643
+  },{
+    "name":"Motor 26",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":38337,
+    "id":987
+  },{
+    "name":"Motor 27",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":15815,
+    "id":997
+  },{
+    "name":"Motor 28",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":17965,
+    "id":444
+  },{
+    "name":"Motor 29",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":24618,
+    "id":433
+  },{
+    "name":"Motor 30",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":31338,
+    "id":214
+  },{
+    "name":"Motor 31",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":21535,
+    "id":585
+  },{
+    "name":"Motor 32",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":20193,
+    "id":150
+  },{
+    "name":"Motor 33",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":18871,
+    "id":21
+  },{
+    "name":"Motor 34",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":41595,
+    "id":128
+  },{
+    "name":"Motor 35",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":33254,
+    "id":3
+  },{
+    "name":"Motor 36",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":10350,
+    "id":399
+  },{
+    "name":"Motor 37",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":12676,
+    "id":713
+  },{
+    "name":"Motor 38",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":32762,
+    "id":811
+  },{
+    "name":"Motor 39",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":48722,
+    "id":187
+  },{
+    "name":"Motor 40",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":27060,
+    "id":227
+  },{
+    "name":"Motor 41",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":31414,
+    "id":458
+  },{
+    "name":"Motor 42",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":40474,
+    "id":157
+  },{
+    "name":"Motor 43",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":13551,
+    "id":983
+  },{
+    "name":"Motor 44",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":49782,
+    "id":122
+  },{
+    "name":"Motor 45",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":16958,
+    "id":704
+  },{
+    "name":"Motor 46",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":49172,
+    "id":341
+  },{
+    "name":"Motor 47",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":49987,
+    "id":318
+  },{
+    "name":"Motor 48",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":25275,
+    "id":235
+  },{
+    "name":"Motor 49",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":38122,
+    "id":111
+  },{
+    "name":"Motor 50",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":38871,
+    "id":27
+  },{
+    "name":"Motor 51",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":12767,
+    "id":259
+  },{
+    "name":"Motor 52",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":43674,
+    "id":73
+  },{
+    "name":"Motor 53",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":47505,
+    "id":482
+  },{
+    "name":"Motor 54",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":34206,
+    "id":381
+  },{
+    "name":"Motor 55",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":12605,
+    "id":513
+  },{
+    "name":"Motor 56",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":19696,
+    "id":860
+  },{
+    "name":"Motor 57",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":33497,
+    "id":440
+  },{
+    "name":"Motor 58",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":12716,
+    "id":547
+  },{
+    "name":"Motor 59",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":26469,
+    "id":398
+  },{
+    "name":"Motor 60",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":32522,
+    "id":420
+  },{
+    "name":"Motor 61",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":23489,
+    "id":933
+  },{
+    "name":"Motor 62",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":28985,
+    "id":473
+  },{
+    "name":"Motor 63",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":25416,
+    "id":621
+  },{
+    "name":"Motor 64",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":10754,
+    "id":131
+  },{
+    "name":"Motor 65",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":39104,
+    "id":677
+  },{
+    "name":"Motor 66",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":37840,
+    "id":391
+  },{
+    "name":"Motor 67",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":47031,
+    "id":864
+  },{
+    "name":"Motor 68",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":26044,
+    "id":335
+  },{
+    "name":"Motor 69",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":40715,
+    "id":372
+  },{
+    "name":"Motor 70",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":28744,
+    "id":758
+  },{
+    "name":"Motor 71",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":26224,
+    "id":711
+  },{
+    "name":"Motor 72",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":36645,
+    "id":790
+  },{
+    "name":"Motor 73",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":32950,
+    "id":474
+  },{
+    "name":"Motor 74",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":14902,
+    "id":630
+  },{
+    "name":"Motor 75",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":45763,
+    "id":153
+  },{
+    "name":"Motor 76",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":31722,
+    "id":985
+  },{
+    "name":"Motor 77",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":40523,
+    "id":22
+  },{
+    "name":"Motor 78",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":32997,
+    "id":22
+  },{
+    "name":"Motor 79",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":42995,
+    "id":803
+  },{
+    "name":"Motor 80",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":49228,
+    "id":308
+  },{
+    "name":"Motor 81",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":25444,
+    "id":443
+  },{
+    "name":"Motor 82",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":49380,
+    "id":255
+  },{
+    "name":"Motor 83",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":27660,
+    "id":983
+  },{
+    "name":"Motor 84",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":35668,
+    "id":257
+  },{
+    "name":"Motor 85",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":32463,
+    "id":953
+  },{
+    "name":"Motor 86",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":46677,
+    "id":161
+  },{
+    "name":"Motor 87",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":48232,
+    "id":311
+  },{
+    "name":"Motor 88",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":24934,
+    "id":644
+  },{
+    "name":"Motor 89",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":46348,
+    "id":533
+  },{
+    "name":"Motor 90",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":30304,
+    "id":945
+  },{
+    "name":"Motor 91",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":36786,
+    "id":622
+  },{
+    "name":"Motor 92",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":46987,
+    "id":798
+  },{
+    "name":"Motor 93",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":43079,
+    "id":841
+  },{
+    "name":"Motor 94",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":17238,
+    "id":647
+  },{
+    "name":"Motor 95",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":28281,
+    "id":204
+  },{
+    "name":"Motor 96",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":27859,
+    "id":843
+  },{
+    "name":"Motor 97",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":22794,
+    "id":560
+  },{
+    "name":"Motor 98",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":17324,
+    "id":350
+  },{
+    "name":"Motor 99",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":40661,
+    "id":447
+  },{
+    "name":"Motor 100",
+    "unit_consumption":{
+      "liters_per_100km":8,
+      "km_per_liter":12.5,
+      "mpg":29.4
+    },
+    "price":10241,
+    "id":295
+  }]
