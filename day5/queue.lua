@@ -14,24 +14,24 @@ end
 -- Declare it globally at the top
 global_task_queue = nil
 local function main()
-    if not _G.global_task_queue then
+    if not global_task_queue then
         -- Global variable retained across script intervals
-        _G.global_task_queue = TaskQueue:new()
+        global_task_queue = TaskQueue:new()
         for _, task in ipairs(create_sample_tasks()) do
-            _G.global_task_queue:enqueue(task)
+            global_task_queue:enqueue(task)
         end
     end
 
     local now = os.time()
 
-    while not _G.global_task_queue:is_empty() do
-        local task = _G.global_task_queue:peek()
+    while not global_task_queue:is_empty() do
+        local task = global_task_queue:peek()
 
         if now >= task.scheduled_time then
             -- Execute the task
             task.status = "done"
             print("Executing task #" .. task.id .. ": " .. task.name, 1)
-            _G.global_task_queue:dequeue()
+            global_task_queue:dequeue()
         else
             -- Not ready to execute yet
             print("Task #" .. task.id .. " is not ready yet. Scheduled for " .. os.date("%Y-%m-%d %H:%M:%S", task.scheduled_time), 1)
