@@ -11,16 +11,12 @@ function iterate(n)
     local i = 0
     --closure to keep track of the index
     return function()
-        i = i +3
+        i = i + 3 -- increment by a random number between 1 and 3
         if i <= n then
             return i,temp[i]+10
         end
     end
 end
-
-
-
-
 --print the temp values
 for k,v in iterate(#temp) do
     print(k,v)
