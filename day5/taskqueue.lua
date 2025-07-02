@@ -1,6 +1,6 @@
-_G.TaskQueue = {}
-_G.TaskQueue.__index = _G.TaskQueue  -- This binds the methods
-function _G.TaskQueue:new()
+TaskQueue = {}
+TaskQueue.__index = TaskQueue  -- This binds the methods
+function TaskQueue:new()
      local obj = {
         first = 1,
         last = 0,
@@ -10,16 +10,16 @@ function _G.TaskQueue:new()
     return obj
 end
 
-function _G.TaskQueue:enqueue(task)
+function TaskQueue:enqueue(task)
     self.last = self.last + 1
     self.data[self.last] = task
 end
 
-function _G.TaskQueue:peek()
+function TaskQueue:peek()
     return self.data[self.first]
 end
 
-function _G.TaskQueue:dequeue()
+function TaskQueue:dequeue()
     if self.first > self.last then return nil end
     local task = self.data[self.first]
     self.data[self.first] = nil
@@ -27,6 +27,8 @@ function _G.TaskQueue:dequeue()
     return task
 end
 
-function _G.TaskQueue:is_empty()
+function TaskQueue:is_empty()
     return self.first > self.last
 end
+
+return TaskQueue
