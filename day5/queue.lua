@@ -1,3 +1,4 @@
+package.path = package.path .. ";./lib/?.lua"
 local TaskQueue=require("taskqueue")
 
  -- Assuming taskqueue.lua is in the same directory
